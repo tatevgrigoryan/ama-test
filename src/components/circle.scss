@@ -1,0 +1,37 @@
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid #333;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.active {
+  .circle {
+    background-color: #ff6f42;
+  }
+}
+
+
+.label {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -32px;
+  margin: 0 auto;
+  color: #333;
+  font-size: 20px;
+  background: #fff;
+  padding: 3px;
+  text-align: center;
+}

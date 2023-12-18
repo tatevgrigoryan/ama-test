@@ -1,0 +1,86 @@
+body {
+  background-color: #fff;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.auto-banner {
+  position: relative;
+  background-image: url("public/auto.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 400px;
+  max-width: 800px;
+
+}
+
+#A1 {
+  position: absolute;
+  left: 10%;
+  top: 6%;
+}
+#A2 {
+  position: absolute;
+  left: 32%;
+  top: 5%;
+}
+#A3 {
+  position: absolute;
+  left: 59%;
+  top: 5%;
+}
+#A4 {
+  position: absolute;
+  left: 77%;
+  top: 5%;
+}
+#B1 {
+  position: absolute;
+  left: 1%;
+  top: 39%;
+}
+#B2 {
+  position: absolute;
+  left: 20%;
+  top: 39%;
+}
+#B3 {
+  position: absolute;
+  left: 53%;
+  top: 39%;
+}
+#B4 {
+  position: absolute;
+  left: 80%;
+  top: 39%;
+}
+#B5 {
+  position: absolute;
+  left: 89%;
+  top: 39%;
+}
+#C1 {
+  position: absolute;
+  left: 8%;
+  top: 76%;
+}
+#C2 {
+  position: absolute;
+  left: 32%;
+  top: 78%;
+}
+#C3 {
+  position: absolute;
+  left: 63%;
+  top: 78%;
+}
+#C4 {
+  position: absolute;
+  left: 83%;
+  top: 75%;
+}
